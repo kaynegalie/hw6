@@ -43,7 +43,7 @@
 
  -- machine state
  ------------------
- type state is (idle,fetch,fetch2,fetch4,fetch5,exe,chill);--fetch3,
+ type state is (idle,fetch,fetch2,fetch3, fetch4,fetch5,exe,chill);--fetch3,
  signal n_s: state;
 
  -----------------------------------
