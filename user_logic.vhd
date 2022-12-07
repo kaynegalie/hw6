@@ -32,7 +32,7 @@
  -------------------------
 
  -- pointers
- signal sp,pc,mem_addr,b : std_logic_vector(A-1 downto 0);
+ signal sp,pc,mem_addr : std_logic_vector(A-1 downto 0);
 
  -- data registers
  signal mem_data_in,mem_data_out,ir : std_logic_vector(31 downto 0);
